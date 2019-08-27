@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(title: "Contador de pessoas", home: Home()));
+  runApp(MaterialApp(title: "Contador de pessoas", home: Home(),
+    debugShowCheckedModeBanner: false,
+  ));
 }
 
 class Home extends StatefulWidget {
